@@ -570,6 +570,10 @@ video {
   margin-bottom: 0.25rem;
 }
 
+.mb-16{
+  margin-bottom: 4rem;
+}
+
 .mb-2{
   margin-bottom: 0.5rem;
 }
@@ -628,10 +632,6 @@ video {
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.mb-16{
-  margin-bottom: 4rem;
 }
 
 .flex{
@@ -992,6 +992,11 @@ video {
 }
 
 @media (min-width: 650px){
+  .sm\:my-\[48px\]{
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+
   .sm\:block{
     display: block;
   }
@@ -1024,6 +1029,10 @@ video {
 @media (max-width: 650px){
   .xs\:order-4{
     order: 4;
+  }
+
+  .xs\:mb-\[48px\]{
+    margin-bottom: 48px;
   }
 
   .xs\:ml-0{
